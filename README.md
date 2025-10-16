@@ -21,49 +21,87 @@
 
 # Results
 
-Example 1 (Not Resolved):
+# Example 1 (Not Resolved):
 
 libFirebaseCppAnalytics.so                  2**12      ❌
+
 libFirebaseCppApp-12_1_0.so                 2**12      ❌
+
 libFirebaseCppRemoteConfig.so               2**12      ❌
+
 lib_burst_generated.so                      2**14      ✅
+
 libapminsighta.so                           2**12      ❌
+
 libapminsightb.so                           2**12      ❌
+
 libapplovin-native-crash-reporter.so        2**14      ✅
+
 libbuffer_pg.so                             2**12      ❌
+
 libfile_lock_pg.so                          2**12      ❌
+
 libil2cpp.so                                2**14      ✅
+
 libmain.so                                  2**14      ✅
+
 libmediapipe_jni.so                         2**12      ❌
+
 libnms.so                                   2**12      ❌
+
 libopencv_java3.so                          2**16      ✅
+
 libpglarmor.so                              2**12      ❌
+
 libsigner.so                                2**14      ✅
+
 libtobEmbedPagEncrypt.so                    2**12      ❌
+
 libtt_ugen_yoga.so                          2**12      ❌
+
 libunity.so                                 2**14      ✅
+
 libvosk.so                                  2**12      ❌
 
-Example 2 (Resolved):
+
+# Example 2 (Resolved):
 
 libFirebaseCppAnalytics.so                  2**14      ✅
+
 libFirebaseCppApp-13_3_0.so                 2**14      ✅
+
 libFirebaseCppRemoteConfig.so               2**14      ✅
+
 lib_burst_generated.so                      2**14      ✅
+
 libapminsighta.so                           2**14      ✅
+
 libapminsightb.so                           2**14      ✅
+
 libapplovin-native-crash-reporter.so        2**14      ✅
+
 libbuffer_pgl.so                            2**14      ✅
+
 libfile_lock_pgl.so                         2**14      ✅
+
 libil2cpp.so                                2**14      ✅
+
 libmain.so                                  2**14      ✅
+
 libmediapipe_jni.so                         2**14      ✅
+
 libnms.so                                   2**14      ✅
+
 libopencv_java4.so                          2**14      ✅
+
 libpglarmor.so                              2**14      ✅
+
 libsigner.so                                2**14      ✅
+
 libtobEmbedPagEncrypt.so                    2**14      ✅
+
 libtt_ugen_layout.so                        2**14      ✅
+
 libunity.so                                 2**14      ✅
 
 ==========================================================================================================
@@ -71,27 +109,50 @@ libunity.so                                 2**14      ✅
 # Dictionary
 
 -> ✅ : Good to Go
+
 -> ❌ : Needs to be updated
+
 -> 2**14 : 16KB supported
+
 -> 2**12 : 4KB supported
 
+
 libFirebaseCppAnalytics.so                 -> Firebase Analytics
+
 libFirebaseCppApp-13_3_0.so                -> Firebase
+
 libFirebaseCppRemoteConfig.so              -> Firebase Remote Config
+
 lib_burst_generated.so                     -> Burst Compiler
+
 libapminsighta.so                          -> Pangle Network Adapter
+
 libapminsightb.so                          -> Pangle Network Adapter
+
 libapplovin-native-crash-reporter.so       -> Max Apploving
+
 libbuffer_pgl.so                           -> Pangle Network Adapter
+
 libfile_lock_pgl.so                        -> Pangle Network Adapter
+
 libil2cpp.so                               -> Unity Native Library
+
 libmain.so                                 -> Unity Native Library
+
 libmediapipe_jni.so                        -> MediaPipe (Custom Library)
+
 libnms.so                                  -> Pangle Network Adapter
+
 libopencv_java4.so                         -> OpenCV (Custom Library)
+
 libpglarmor.so                             -> Pangle Network Adapter
+
 libsigner.so                               -> Pangle Network Adapter
+
 libtobEmbedPagEncrypt.so                   -> Pangle Network Adapter
+
 libtt_ugen_yoga.so                         -> Pangle Network Adapter
+
 libunity.so                                -> Unity Native Library
+
 libvosk.so                                 -> Vosk (Custom Library)

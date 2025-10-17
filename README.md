@@ -117,6 +117,8 @@ libunity.so                                 2**14      ✅
 -> 2**12 : 4KB supported
 
 
+libAndroidCpuUsage.so                      -> Adaptive Performance package
+
 libFirebaseCppAnalytics.so                 -> Firebase Analytics
 
 libFirebaseCppApp-13_3_0.so                -> Firebase
